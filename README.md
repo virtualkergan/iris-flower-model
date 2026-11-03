@@ -13,7 +13,8 @@ Clone this repository and navigate to its root directory. Run the following comm
 ```
 uv sync
 ```
-Run the following command to start and open a local `marimo` server:
+Run the following command to start and open a local `marimo` server and run the notebook:
 ```
-marimo edit
+uv run marimo edit iris_flower_model.py
 ```
+To stop the server, press `ctrl + c` in the terminal window with the running server process.

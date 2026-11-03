@@ -14,7 +14,7 @@ def _():
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    # *Iris* flower classification with neural network
+    # *Iris* flower classification with a neural network
 
     This model is trained on the *Iris* flower data set used in Ronald Fisher's 1936 paper, *The use of multiple measurements in taxonomic problems*. The concepts used here were learned from Appendix A of Sebastian Raschka's book, *Build a Large Language Model (From Scratch)*.
 
